@@ -52,8 +52,16 @@ msgid ""
 
 To process and translate a .po file, use the following command:
 
+- use gemini
+
 ```bash
-uv run intercept.py library/builtins.po -n 9
+uv run translator/gemini.py library/builtins.po -n 9
+```
+
+-use openai
+
+```bash
+uv run translator/openai.py library/builtins.po -n 9
 ```
 
 ## Output Example
