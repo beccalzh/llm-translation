@@ -58,7 +58,7 @@ To process and translate a .po file, use the following command:
 uv run translator/gemini.py library/builtins.po -n 9
 ```
 
--use openai
+- use openai
 
 ```bash
 uv run translator/openai.py library/builtins.po -n 9
